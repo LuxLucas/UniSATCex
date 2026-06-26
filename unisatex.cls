@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{unisatex}[2026/06/26 v0.1 UniSATeX conference template based on IEEEtran]
+\ProvidesClass{unisatex}[2026/06/26 v0.1 UniSATeX conference template based on IEEEtran by Lucas Flôres]
 
 % Institutional wrapper over IEEEtran.
 % Keep IEEEtran.cls unchanged and place UniSATeX customizations here.
@@ -82,6 +82,9 @@
 }
 
 \newenvironment{keywords}{\begin{IEEEkeywords}}{\end{IEEEkeywords}}
+\newenvironment{englishkeywords}
+    {\renewcommand{\IEEEkeywordsname}{Keywords}\begin{IEEEkeywords}}
+    {\end{IEEEkeywords}\renewcommand{\IEEEkeywordsname}{Palavras-chave}}
 \makeatother
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em

@@ -1,4 +1,4 @@
-# Projeto LaTeX (UniSatex)
+# Projeto LaTeX (UniSATex)
 
 Este projeto está configurado para ser desenvolvido e compilado diretamente no **VSCode** utilizando a extensão **LaTeX Workshop**. O ambiente foi otimizado para manter o diretório limpo, isolando todos os arquivos auxiliares de compilação em uma pasta dedicada.
 
@@ -8,7 +8,7 @@ Este projeto está configurado para ser desenvolvido e compilado diretamente no 
 
 Para compilar este projeto localmente, você precisa ter duas ferramentas principais instaladas no sistema:
 
-1. **Distribuição LaTeX (MiKTeX):** Responsável pelo motor de compilação (`pdflatex`, `bibtex`).
+1. **Distribuição LaTeX ([MikTex][miktex]):** Responsável pelo motor de compilação (`pdflatex`, `bibtex`).
 2. **Visual Studio Code:** O editor de código.
 3. **Extensão LaTeX Workshop:** Extensão instalada dentro do VS Code.
 
@@ -97,3 +97,5 @@ Durante a compilação, o projeto criará a seguinte estrutura:
 * **`Ctrl + Alt + B`** ➞ Compila o projeto manualmente.
 * **`Ctrl + Alt + V`** ➞ Abre a pré-visualização do PDF na aba ao lado.
 * **`Ctrl + Alt + J`** ➞ **SyncTeX Forward**: Coloque o cursor em uma linha do código e use este atalho para o PDF pular exatamente para o parágrafo correspondente.
+
+[miktex]: https://miktex.org/
